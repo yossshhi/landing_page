@@ -1,11 +1,19 @@
 
 :root {
-    --hero-bg: #1f2937;
-    --footer-bg: #1f2937;
-    --button-color: #3882f6;
-    --header-color: #1F2937;
-    --quote-bg: #E5E7EB;
-    --quote-color: #1f2937;
+
+    /* colors */
+    --dark: #1f2937;
+    --skyblue: #3882f6;
+    --light: #E5E7EB;
+
+    /* text*/
+    --header-text: 24px;
+    --hero-header-text: 18px;
+    --hero-main-text: 48px;
+    --information-header-text: 36px;
+    --quote-text: 36px;
+    
+    
 }
 
 
@@ -16,24 +24,42 @@
     font-family: "Roboto", sans-serif;
 }
 
+.body {
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
 .nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--dark);
+    color: white;
 }
 
-.nav-items {
+
+.nav ul {
     display: flex;
+    list-style: none;
+    gap: 16px;
 }
 
-.nav-items li {
-    list-style-type: none;
-}
-.nav-items a {
+.nav a {
     text-decoration: none;
+    color: inherit;
+}
+
+.nav-left {
+    font-size: 24px;
+    color: #F9FAF8;
 }
 
 .nav-right {
-    display: flex;
+    font-size: var(--hero-header-text);
+    color: #E5E7EB;
 }
-
 
