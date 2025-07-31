@@ -5,6 +5,7 @@
     --dark: #1f2937;
     --skyblue: #3882f6;
     --light: #E5E7EB;
+    --clear: #F9FAF8;
 
     /* text*/
     --header-text: 24px;
@@ -37,7 +38,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background: var(--dark);
     color: white;
 }
 
@@ -63,8 +63,35 @@
     color: #E5E7EB;
 }
 
-.hero-content img {
+/* hero section */
+
+.hero {
+    background-color: var(--dark);
+    padding: 10px 20px 10px 120px;
+}
+
+.hero-content {
+    margin: 125px 0px;
+    display: flex;
+    border: 1px solid red;
+    color: var(--clear);
+    justify-content: space-around;
+}
+
+.hero-text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-content button {
+    width: 100px;
+    padding: 5px;
+    border-radius: 2px;
+    background: var(--skyblue);
+    color: var(--clear);
+}
+
+.hero-image-container img {
     height: 300px;
     width: 450px;
 }
-
