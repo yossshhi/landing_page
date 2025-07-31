@@ -16,3 +16,24 @@
     font-family: "Roboto", sans-serif;
 }
 
+.nav {
+    display: flex;
+    flex-direction: row;
+}
+
+.nav-items {
+    display: flex;
+}
+
+.nav-items li {
+    list-style-type: none;
+}
+.nav-items a {
+    text-decoration: none;
+}
+
+.nav-right {
+    display: flex;
+}
+
+
