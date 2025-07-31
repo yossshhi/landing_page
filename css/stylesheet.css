@@ -63,3 +63,8 @@
     color: #E5E7EB;
 }
 
+.hero-content img {
+    height: 300px;
+    width: 450px;
+}
+
