@@ -6,7 +6,7 @@
     --skyblue: #3882f6;
     --light: #E5E7EB;
     --clear: #F9FAF8;
-    --white: #FFFFFF
+    --white: #FFFFFF;
 
     /* text*/
     --header-text: 24px;
@@ -162,3 +162,45 @@
     font-size: 22px;
     font-weight: bold;
 }
+
+/* call to action */
+
+.callToAction {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+.cta-contents {
+    display: flex;
+    background: var(--skyblue);
+    border-radius: 5px;
+    height: 150px;
+    width: 80vw;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.cta-left {
+    display: flex;
+    flex-direction: column;
+    color: white;
+}
+
+.cta-head {
+    font-weight: bold;
+    font-size: var(--header-text);
+}
+
+.cta-button {
+    padding: 6px 30px;
+    border-radius: 4px;
+    color: white;
+    background: var(--skyblue);
+    border: 2px solid var(--white);
+    font-size: 17px;
+    font-weight: bold;
+}
+
+
