@@ -139,3 +139,26 @@
 .image-content p {
     padding-top: 5px;
 }
+
+/* quote section */
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background: var(--light);
+    padding: 125px 200px;
+    border: 1px solid red;
+}
+
+.main-quote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+.quote-name {
+    text-align: right;
+    margin-left: auto;
+    font-size: 22px;
+    font-weight: bold;
+}
