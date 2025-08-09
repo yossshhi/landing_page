@@ -56,12 +56,12 @@
 
 .nav-left {
     font-size: 24px;
-    color: #F9FAF8;
+    color: var(--light);
 }
 
 .nav-right {
     font-size: var(--hero-header-text);
-    color: #E5E7EB;
+    color: var(--light);
 }
 
 /* hero section */
