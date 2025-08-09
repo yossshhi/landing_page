@@ -182,6 +182,8 @@
     display: flex;
     flex-direction: column;
     margin: 100px;
+    justify-content: center;
+    align-items: center;
 }
 
 .cta-contents {
@@ -189,7 +191,7 @@
     background: var(--skyblue);
     border-radius: 5px;
     height: 150px;
-    width: 80vw;
+    width: 1300px;
     justify-content: center;
     align-items: center;
     gap: 200px;
