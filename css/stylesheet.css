@@ -74,7 +74,6 @@
 .hero-content {
     margin: 125px 0px;
     display: flex;
-    border: 1px solid red;
     color: var(--clear);
     justify-content: space-around;
 }
@@ -82,20 +81,34 @@
 .hero-text-container{
     display: flex;
     flex-direction: column;
+    gap: 10px;
 }
 
 .hero-content button {
-    width: 100px;
-    padding: 5px;
-    border-radius: 2px;
+    width: 125px;
+    padding: 9px 18px;
+    border-radius: 3px;
     background: var(--skyblue);
     color: var(--clear);
+    margin-top: 100px;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .hero-image-container img {
     height: 300px;
-    width: 450px;
+    width: 550px;
 }
+
+.hero-main-text {
+    font-size: var(--hero-main-text);
+    font-weight: bold;
+}
+
+.hero-secondary-text {
+    font-size: var(--hero-header-text);
+}
+
 
 /* image collection */
 
