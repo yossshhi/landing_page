@@ -203,4 +203,14 @@
     font-weight: bold;
 }
 
+/* footer */
+
+footer {
+    background-color: var(--dark);
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+
 
