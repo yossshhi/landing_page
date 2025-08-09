@@ -160,7 +160,6 @@
     flex-direction: column;
     background: var(--light);
     padding: 125px 200px;
-    border: 1px solid red;
 }
 
 .main-quote {
